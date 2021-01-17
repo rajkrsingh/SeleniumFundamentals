@@ -9,7 +9,7 @@ public class SeleniumBasics {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Raj Kumar Singh\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		System.out.println("Welcome to Selenium World....");
+		System.out.println("Welcome to Selenium World...");
 		driver.get("https://www.google.com");
 		System.out.println("Launching google home page");
 		
